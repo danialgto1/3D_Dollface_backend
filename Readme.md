@@ -14,26 +14,27 @@ data/Face_DeepLabV3+_TimmRegnety002.pth
 	$ python -V
 ```
 
-2- Make sure you computer support Cudas
-```
-	$ nvidia-smi
-	
-```
-If your os Detect Cuda then run that
-```
-	$ cd decalib/utils/rasterizer
-	$ python setup.py build_ext -i
-```
 
-3- Create Virtual enviroment
+2- Create Virtual enviroment
 ```
 	$ pyhton -m venv vnev
 ```
-4- Activate your enviroment
+3- Activate your enviroment
 ```
 	$ source venv/bin/activate
 
 ```
+4- Make sure you computer support Cudas
+```
+        $ nvidia-smi
+
+```
+If your os Detect Cuda then run that
+```
+        $ cd decalib/utils/rasterizer
+        $ python setup.py build_ext -i
+```
+
 5- Run this commands
 ```
 	$ python manage.py makemigrations
