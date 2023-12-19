@@ -2,12 +2,11 @@
 
 ## installatio
 
-* Before installing please Download these files 
-
-data/FLAME_albedo_from_BFM.npz
-data/deca_model.tar
-data/generic_model.pkl
-data/Face_DeepLabV3+_TimmRegnety002.pth
+* Before installing please Download these files and copy them to data/
+	- data/FLAME_albedo_from_BFM.npz
+	- data/deca_model.tar
+	- data/generic_model.pkl
+	- data/Face_DeepLabV3+_TimmRegnety002.pth
 
 1- Make sure you install python 3.11
 ```
