@@ -2,6 +2,6 @@ db.sqlite3
 data/FLAME_albedo_from_BFM.npz
 data/deca_model.tar
 data/generic_model.pkl
-Face_DeepLabV3+_TimmRegnety002.pth
+data/Face_DeepLabV3+_TimmRegnety002.pth
 media/
 
