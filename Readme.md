@@ -1,6 +1,6 @@
 # This is the back end repository for 3D Dollface
 
-## installatio
+## installation
 
 * Before installing please Download these files and copy them to data/
 	- data/FLAME_albedo_from_BFM.npz
@@ -40,7 +40,9 @@ If your os Detect Cuda then run that
 	$ python manage.py migrate
 ```
 
-6- After that you just start program
+## Running
+
+After that you just start program
 ```
 	$ python manage.py runserver
 ```
