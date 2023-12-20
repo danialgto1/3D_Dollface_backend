@@ -1,3 +1,0 @@
-newmtl FaceTexture
-map_Kd front.png
-disp results/1/front_normals.png
