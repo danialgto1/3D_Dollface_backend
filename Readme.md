@@ -8,7 +8,7 @@
 	- data/generic_model.pkl
 	- data/Face_DeepLabV3+_TimmRegnety002.pth
 
-1- Make sure you install python 3.11
+1- Make sure you install python 3.10
 ```
 	$ python -V
 ```
@@ -18,9 +18,10 @@
 ```
 	$ pyhton -m venv vnev
 ```
-3- Activate your enviroment
+3- Activate your enviroment and install requirements
 ```
 	$ source venv/bin/activate
+	$ pip install -r requirements.txt
 
 ```
 4- Make sure you computer support Cudas
